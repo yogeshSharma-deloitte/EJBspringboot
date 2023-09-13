@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.hashedin.migration.controllers.ProductControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.643 s <<< FAILURE! - in com.hashedin.migration.controllers.ProductControllerTest
+getAllProducts1Test  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.hashedin.migration.services.UserService.getProductCount()" because "this.userService" is null
+	at com.hashedin.migration.controllers.ProductControllerTest.getAllProducts1Test(ProductControllerTest.java:32)
+
+getAllProductsTest  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.hashedin.migration.services.UserService.getProductCount()" because "this.userService" is null
+	at com.hashedin.migration.controllers.ProductControllerTest.getAllProductsTest(ProductControllerTest.java:25)
+

@@ -1,0 +1,6 @@
+com/hashedin/migration/services/UserServiceTest.class
+com/hashedin/migration/entity/UserTest.class
+com/hashedin/migration/controllers/UserControllerTest.class
+com/hashedin/migration/controllers/ProductControllerTest.class
+com/hashedin/migration/EjbToSpringBootApplicationTest.class
+com/hashedin/migration/entity/ProductTest.class
